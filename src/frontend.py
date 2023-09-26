@@ -18,8 +18,8 @@ from src.plot import plot_one_sample
 st.set_page_config(layout="wide")
 
 # title
-# current_date = datetime.strptime('2023-01-05 12:00:00', '%Y-%m-%d %H:%M:%S')
-current_date = pd.to_datetime(datetime.utcnow()).floor('H')
+current_date = datetime.strptime('2023-09-20 10:59:59', '%Y-%m-%d %H:%M:%S')
+# current_date = pd.to_datetime(datetime.utcnow()).floor('H')
 st.title(f'Taxi demand prediction 🚕')
 st.header(f'{current_date} UTC')
 
