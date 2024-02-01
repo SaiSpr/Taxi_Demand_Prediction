@@ -6,20 +6,26 @@ from src.paths import PARENT_DIR
 # load key-value pairs from .env file located in the parent directory
 # load_dotenv(PARENT_DIR / '.env')
 
-HOPSWORKS_API_KEY = 'DJmMdmfRSQgAWtbo.tTjG0ZJFhPy5MVXmMovoAmzpEbmcWzNvLJb9mHfeKBTJkhflD8YdgoH3E6CwpNEE'
+# HOPSWORKS_API_KEY = 'DJmMdmfRSQgAWtbo.tTjG0ZJFhPy5MVXmMovoAmzpEbmcWzNvLJb9mHfeKBTJkhflD8YdgoH3E6CwpNEE'
 
-HOPSWORKS_PROJECT_NAME = 'uber_demand'
+# HOPSWORKS_PROJECT_NAME = 'uber_demand'
+
+
+HOPSWORKS_API_KEY = 'IB2b1Snz4GTx8CtU.XbeQ6PKTngkgDlSAmcgIMbZZKQErPI473MTYm9g2HC5maLTX9PyePJMWHcLWGbCh'
+
+HOPSWORKS_PROJECT_NAME = 'Time_Series_NYC'
+
 # try:
 #     HOPSWORKS_API_KEY = os.environ['HOPSWORKS_API_KEY']
 # except:
 #     raise Exception('Create an .env file on the project root with the HOPSWORKS_API_KEY')
 
-FEATURE_GROUP_NAME = 'taxi_time_series_hourly_feature_group'
-FEATURE_GROUP_VERSION = 2
-FEATURE_VIEW_NAME = 'taxi_time_series_hourly_feature_view'
-FEATURE_VIEW_VERSION = 2
+FEATURE_GROUP_NAME = 'new_time_series_feature_group'
+FEATURE_GROUP_VERSION = 1
+FEATURE_VIEW_NAME = 'new_time_series_feature_view'
+FEATURE_VIEW_VERSION = 1
 MODEL_NAME = "taxi_demand_predictor_next_hour"
-MODEL_VERSION = 4
+MODEL_VERSION = 1
 
 # 
 
