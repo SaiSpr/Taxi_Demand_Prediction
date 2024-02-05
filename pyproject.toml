@@ -8,61 +8,30 @@ readme = "README.md"
 
 
 [tool.poetry.dependencies]
-python
-pandas
-jupyter
-pyarrow
-tqdm
-plotly
-requests
-scikit-learn
-xgboost 
-lightgbm
-optuna 
-hopsworks
-python-dotenv 
-streamlit 
-pydeck 
-geopandas 
-discordwebhook 
-fire 
+python = ">=3.9,<3.9.7 || >3.9.7,<3.10"
+pandas = "^1.5.2"
+jupyter = "^1.0.0"
+pyarrow = "^10.0.1"
+tqdm = "^4.64.1"
+plotly = "^5.11.0"
+requests = "^2.28.1"
+scikit-learn = "^1.2.0"
+xgboost = "^1.7.2"
+lightgbm = "^3.3.3"
+optuna = "^3.0.5"
+hopsworks = "^3.4.0"
+python-dotenv = "^0.21.0"
+streamlit = "1.22.0"
+pydeck = "^0.8.0"
+geopandas = "^0.12.2"
+discordwebhook = "^1.0.3"
+fire = "^0.5.0"
 
 [tool.poetry.dev-dependencies]
-pytest 
-watchdog 
-pip-tools 
+pytest = "^5.2"
+watchdog = "^2.2.1"
+pip-tools = "^6.12.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-
-
-# [tool.poetry.dependencies]
-# python = ">=3.9,<3.9.7 || >3.9.7,<3.10"
-# pandas = "^1.5.2"
-# jupyter = "^1.0.0"
-# pyarrow = "^10.0.1"
-# tqdm = "^4.64.1"
-# plotly = "^5.11.0"
-# requests = "^2.28.1"
-# scikit-learn = "^1.2.0"
-# xgboost = "^1.7.2"
-# lightgbm = "^3.3.3"
-# optuna = "^3.0.5"
-# hopsworks = "^3.2.0"
-# python-dotenv = "^0.21.0"
-# streamlit = "3.4.0"
-# pydeck = "^0.8.0"
-# geopandas = "^0.12.2"
-# discordwebhook = "^1.0.3"
-# fire = "^0.5.0"
-
-# [tool.poetry.dev-dependencies]
-# pytest = "^5.2"
-# watchdog = "^2.2.1"
-# pip-tools = "^6.12.3"
-
-# [build-system]
-# requires = ["poetry-core>=1.0.0"]
-# build-backend = "poetry.core.masonry.api"
