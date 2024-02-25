@@ -85,8 +85,8 @@ Our project maintains an organized directory structure:
 To set up the environment, clone the repository and install dependencies:
 
 ```shell
-git clone https://github.com/carlosfab/taxi_demand_predictor
-cd taxi_demand_predictor
+git clone https://github.com/SaiSpr/Taxi_Demand_Prediction/
+cd taxi_demand_prediction
 poetry install
 poetry shell
 ```
